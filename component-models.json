@@ -245,5 +245,30 @@
         "multi": false
       }
     ]
+  },
+  {
+    "id": "test",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "assetTest",
+        "label": "Test Asset"
+      },
+      {
+        "component": "richtext",
+        "name": "rteTest",
+        "value": "",
+        "label": "RTE text",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "textTest",
+        "label": "Normal text",
+        "value": ""
+      }
+    ]
   }
 ]
