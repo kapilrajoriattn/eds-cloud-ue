@@ -233,5 +233,24 @@
         "value": ""
       }
     ]
+  },
+  {
+    "id": "video",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "videoField",
+        "label": "Video",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "videoAlt",
+        "label": "Alt text",
+        "value": ""
+      }
+    ]
   }
 ]
