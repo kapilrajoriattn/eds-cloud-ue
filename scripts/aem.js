@@ -336,6 +336,40 @@ function createOptimizedPicture(
 }
 
 /**
+ * Returns a video element with optimized media path
+ * @param {string} src The video URL (DAM path)
+ * @param {boolean} [controls] Whether to show controls
+ * @param {boolean} [autoplay] Whether to autoplay
+ * @param {boolean} [loop] Whether to loop
+ * @returns {Element} The video element
+ */
+export function createOptimizedVideo(
+  src,
+  controls = true,
+  autoplay = false,
+  loop = false,
+) {
+  const url = new URL(src, window.location.href);
+  const { pathname } = url;
+  const ext = pathname.substring(pathname.lastIndexOf('.') + 1);
+
+  const video = document.createElement('video');
+  if (controls) video.setAttribute('controls', true);
+  video.setAttribute('playsinline', true);
+  video.setAttribute('preload', 'metadata');
+  if (autoplay) video.setAttribute('autoplay', true);
+  if (loop) video.setAttribute('loop', true);
+  if (autoplay) video.setAttribute('muted', true); // required for autoplay
+
+  const source = document.createElement('source');
+  source.setAttribute('src', `${pathname}?optimize=medium`);
+  source.setAttribute('type', `video/${ext}`);
+  video.appendChild(source);
+
+  return video;
+}
+
+/**
  * Set template (page structure) and theme (page styles).
  */
 function decorateTemplateAndTheme() {
