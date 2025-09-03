@@ -11,13 +11,17 @@
  */
 
 :root {
-  /* colors */
-  --background-color: white;
-  --light-color: #f8f8f8;
-  --dark-color: #505050;
-  --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+ /* colors */
+  --text-color: #2d2d2d;
+  --link-color: #2d2d2d;
+  --link-hover-color: #2d2d2d;
+  --background-color: #fff;
+  --overlay-background-color: #eee;
+  --highlight-background-color: #ccc;
+  --border-color: #cbd1d6;
+  --light-color: #f5f7f8;
+  --grey200: #dfe3e6;
+  --orange: #fd5108;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback, sans-serif;
@@ -173,7 +177,7 @@ button {
   max-width: 100%;
   margin: 12px 0;
   border: 2px solid transparent;
-  border-radius: 2.4em;
+  /* border-radius: 2.4em; */
   padding: 0.5em 1.2em;
   font-family: var(--body-font-family);
   font-style: normal;
@@ -210,6 +214,20 @@ button.secondary {
   color: var(--text-color);
 }
 
+a.button.primary,
+button.primary {
+  background-color: var(--orange);
+  /* border: 2px solid currentcolor;
+  color: var(--text-color); */
+}
+
+a.button.primary:after,
+button.primary:after {
+  content: '\25BC';
+
+}
+
+
 main img {
   max-width: 100%;
   width: auto;
@@ -233,7 +251,7 @@ main > .section {
 }
 
 main > .section > div {
-  max-width: 1200px;
+  max-width: 1370px;
   margin: auto;
   padding: 0 24px;
 }
@@ -254,4 +272,8 @@ main .section.highlight {
   background-color: var(--light-color);
   margin: 0;
   padding: 40px 0;
+}
+
+main .section.hero-content .default-content-wrapper {
+  background-color: var(--light-color);
 }
