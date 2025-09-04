@@ -312,7 +312,7 @@
         "component": "container",
         "name": "tabSettings",
         "label": "Tabs",
-        "valueType": "object",
+        "valueType": "string",
         "collapsible": false,
         "multi": true,
         "fields": [
