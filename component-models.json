@@ -298,5 +298,39 @@
         "label": "Button author"
       }
     ]
+  },
+  {
+    "id": "custom-tabs",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "rte-tab",
+        "value": "",
+        "label": "title",
+        "valueType": "string"
+      },
+      {
+        "component": "tab",
+        "label": "Tab 1",
+        "name": "tab1"
+      },
+      {
+        "component": "text-input",
+        "label": "Text 1",
+        "name": "text1",
+        "valueType": "string"
+      },
+      {
+        "component": "tab",
+        "label": "Tab 2",
+        "name": "tab2"
+      },
+      {
+        "component": "text-input",
+        "label": "Text 2",
+        "name": "text2",
+        "valueType": "string"
+      }
+    ]
   }
 ]
