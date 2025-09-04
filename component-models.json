@@ -303,32 +303,31 @@
     "id": "custom-tabs",
     "fields": [
       {
-        "component": "richtext",
-        "name": "rte-tab",
-        "value": "",
-        "label": "title",
+        "component": "text",
+        "name": "title",
+        "label": "Title",
         "valueType": "string"
       },
       {
         "component": "container",
         "name": "tabSettings",
-        "label": "Tab Settings",
-        "valueType": "string",
+        "label": "Tabs",
+        "valueType": "object",
         "collapsible": false,
         "multi": true,
         "fields": [
           {
-            "component": "text-input",
-            "label": "tab Text",
-            "name": "tab-text",
+            "component": "text",
+            "name": "tabLabel",
+            "label": "Tab Label",
             "valueType": "string"
           },
           {
             "component": "richtext",
-            "name": "tab-content",
-            "value": "",
-            "label": "tab content",
-            "valueType": "string"
+            "name": "tabContent",
+            "label": "Tab Content",
+            "valueType": "string",
+            "value": ""
           }
         ]
       }
