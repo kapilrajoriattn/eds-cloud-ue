@@ -318,14 +318,9 @@
         "multi": true,
         "fields": [
           {
-            "component": "tab",
-            "label": "Tab",
-            "name": "tab"
-          },
-          {
             "component": "text-input",
-            "label": "Text",
-            "name": "text",
+            "label": "tab Text",
+            "name": "tab-text",
             "valueType": "string"
           },
           {
