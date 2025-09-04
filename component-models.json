@@ -251,13 +251,13 @@
       {
         "component": "title",
         "valueType": "string",
-        "name": "video title",
+        "name": "video-title",
         "label": "video title",
         "value": ""
       },
       {
         "component": "richtext",
-        "name": "video description",
+        "name": "video-description",
         "value": "",
         "label": "video description",
         "valueType": "string"
