@@ -245,7 +245,7 @@
         "component": "text",
         "valueType": "string",
         "name": "videoLink",
-        "label": "Vido link",
+        "label": "Video link",
         "value": ""
       }
     ]
