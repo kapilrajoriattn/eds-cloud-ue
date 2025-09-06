@@ -242,30 +242,11 @@
     "id": "video",
     "fields": [
       {
-        "component": "reference",
+        "component": "text",
         "valueType": "string",
-        "name": "videoField",
-        "label": "Video",
-        "multi": false
-      },
-      {
-        "component": "title",
-        "valueType": "string",
-        "name": "video-title",
-        "label": "video title",
+        "name": "videoLink",
+        "label": "Vido link",
         "value": ""
-      },
-      {
-        "component": "richtext",
-        "name": "video-description",
-        "value": "",
-        "label": "video description",
-        "valueType": "string"
-      },
-      {
-        "component": "button",
-        "name": "Button",
-        "label": "Button author"
       }
     ]
   },
@@ -291,23 +272,12 @@
         "name": "textTest",
         "label": "Normal text",
         "value": ""
-      },
-      {
-        "component": "button",
-        "name": "Button",
-        "label": "Button author"
       }
     ]
   },
   {
     "id": "custom-tabs",
     "fields": [
-      {
-        "component": "text",
-        "name": "title",
-        "label": "Title",
-        "valueType": "string"
-      },
       {
         "component": "container",
         "name": "tabSettings",
