@@ -365,18 +365,18 @@
         "value": "",
         "label": "tab 4 content",
         "valueType": "string"
-      },
+      }
+    ]
+  },
+  {
+    "id": "grow-here",
+    "fields": [
       {
-        "id": "grow-here",
-        "fields": [
-          {
-            "component": "richtext",
-            "name": "growHereRte",
-            "value": "",
-            "label": "RTE text",
-            "valueType": "string"
-          }
-        ]
+        "component": "richtext",
+        "name": "growHereRte",
+        "value": "",
+        "label": "RTE text",
+        "valueType": "string"
       }
     ]
   }
