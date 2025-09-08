@@ -12,7 +12,7 @@
 
 :root {
  /* colors */
-  --text-color: #2d2d2d;
+  --text-color: #000000;
   --link-color: #2d2d2d;
   --link-hover-color: #2d2d2d;
   --background-color: #fff;
@@ -24,8 +24,9 @@
   --orange: #fd5108;
 
   /* fonts */
-  --body-font-family: roboto, roboto-fallback, sans-serif;
-  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
+  --heading-font-family: "PwC ITC Charter", georgia, serif;
+  --body-font-family: "PwC Helvetica Neue", arial, sans-serif;
+  --fixed-font-family: "Roboto Mono", menlo, consolas, "Liberation Mono", monospace;
 
   /* body sizes */
   --body-font-size-m: 22px;
@@ -218,9 +219,7 @@ button.secondary {
 a.button.primary,
 button.primary {
   background-color: var(--orange);
-    
-  /* border: 2px solid currentcolor;
-  color: var(--text-color); */
+  color: var(--text-color);
 }
 
 a.button.primary::after,
