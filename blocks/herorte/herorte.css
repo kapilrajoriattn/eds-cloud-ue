@@ -1,0 +1,13 @@
+.herorte {
+    padding: 30px 40px;
+    background-color: var(--light-color);
+}
+
+.herorte .button-container a {
+    background-color: var(--orange);
+    color: var(--text-color);
+}
+
+.herorte .button-container a {
+  content: '\25BC';
+}

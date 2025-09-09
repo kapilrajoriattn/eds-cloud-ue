@@ -369,11 +369,11 @@
     ]
   },
   {
-    "id": "grow-here",
+    "id": "hero-rte",
     "fields": [
       {
         "component": "richtext",
-        "name": "growHereRte",
+        "name": "HeroRte",
         "value": "",
         "label": "RTE text",
         "valueType": "string"

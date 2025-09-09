@@ -225,7 +225,6 @@ button.primary {
 a.button.primary::after,
 button.primary::after {
   content: '\25BC';
-
 }
 
 
