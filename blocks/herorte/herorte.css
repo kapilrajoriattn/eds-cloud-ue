@@ -8,6 +8,6 @@
     color: var(--text-color);
 }
 
-.herorte .button-container a {
+.herorte .button-container a:after {
   content: '\25BC';
 }
