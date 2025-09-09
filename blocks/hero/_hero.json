@@ -40,6 +40,22 @@
           "value": "",
           "label": "Text",
           "valueType": "string"
+        },
+        {
+          "component": "select",
+          "name": "textStyle",
+          "label": "Text Style",
+          "valueType": "string",
+          "options": [
+            {
+              "name": "Default",
+              "value": ""
+            },
+            {
+              "name": "Hero Text",
+              "value": "hero-text"
+            }
+          ]
         }
       ]
     }

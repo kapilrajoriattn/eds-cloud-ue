@@ -216,7 +216,23 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
-      }
+      },
+      {
+          "component": "select",
+          "name": "textStyle",
+          "label": "Text Style",
+          "valueType": "string",
+          "options": [
+            {
+              "name": "Default",
+              "value": ""
+            },
+            {
+              "name": "Hero Text",
+              "value": "hero-text"
+            }
+          ]
+        }
     ]
   },
   {
@@ -348,6 +364,18 @@
         "name": "tab4-content",
         "value": "",
         "label": "tab 4 content",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "grow-here",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "growHereRte",
+        "value": "",
+        "label": "RTE text",
         "valueType": "string"
       }
     ]
