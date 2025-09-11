@@ -290,5 +290,82 @@
         "valueType": "string"
       }
     ]
-  }
+  },
+  {
+    "id": "custom-tabs",
+    "fields": [
+      {
+        "component": "tab",
+        "label": "Tab 1",
+        "name": "tab1"
+      },
+      {
+        "component": "text-input",
+        "label": "Text 1",
+        "name": "text1",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "tab1-content",
+        "value": "",
+        "label": "tab 1 content",
+        "valueType": "string"
+      },
+      {
+        "component": "tab",
+        "label": "Tab 2",
+        "name": "tab2"
+      },
+      {
+        "component": "text-input",
+        "label": "Text 2",
+        "name": "text2",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "tab2-content",
+        "value": "",
+        "label": "tab 2 content",
+        "valueType": "string"
+      },
+      {
+        "component": "tab",
+        "label": "Tab 3",
+        "name": "tab3"
+      },
+      {
+        "component": "text-input",
+        "label": "Text 3",
+        "name": "text3",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "tab3-content",
+        "value": "",
+        "label": "tab 3 content",
+        "valueType": "string"
+      },
+      {
+        "component": "tab",
+        "label": "Tab 4",
+        "name": "tab4"
+      },
+      {
+        "component": "text-input",
+        "label": "Text 4",
+        "name": "text4",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "tab4-content",
+        "value": "",
+        "label": "tab 4 content",
+        "valueType": "string"
+      }
+    ]
+  },
 ]
