@@ -220,6 +220,17 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      },
+      {
+        "component": "multiselect",
+        "name": "style",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Overlap Style",
+            "value": "overlap-style"
+          }
+        ]
       }
     ]
   },
