@@ -306,48 +306,30 @@
     "id": "tabs",
     "fields": [
       {
-        "component": "container",
-        "label": "Container tab 1",
-        "name": "containerTab1",
-        "valueType": "string",
-        "collapsible": true,
-        "fields": [
-          {
-            "component": "text",
-            "label": "tab 1 name",
-            "name": "text1",
-            "valueType": "string"
-          },
-          {
-            "component": "richtext",
-            "name": "tab1content",
-            "value": "",
-            "label": "tab 1 content",
-            "valueType": "string"
-          }
-        ]
+        "component": "text",
+        "label": "tab 1 name",
+        "name": "text1",
+        "valueType": "string"
       },
       {
-        "component": "container",
-        "label": "Container tab 2",
-        "name": "containerTab2",
-        "valueType": "string",
-        "collapsible": true,
-        "fields": [
-          {
-            "component": "text",
-            "label": "tab 2 name",
-            "name": "text2",
-            "valueType": "string"
-          },
-          {
-            "component": "richtext",
-            "name": "tab2content",
-            "value": "",
-            "label": "tab 2 content",
-            "valueType": "string"
-          }
-        ]
+        "component": "richtext",
+        "name": "tab1content",
+        "value": "",
+        "label": "tab 1 content",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "label": "tab 2 name",
+        "name": "text2",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "tab2content",
+        "value": "",
+        "label": "tab 2 content",
+        "valueType": "string"
       }
     ]
   }
