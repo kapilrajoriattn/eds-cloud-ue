@@ -295,6 +295,7 @@ main .section.video-column-section > div {
 main .section.video-column-section .herorte {
   background-color: transparent;
 }
+
 main .section.video-column-section .herorte .button-container a {
   background-color: var(--link-color);
   color: var(--background-color);
