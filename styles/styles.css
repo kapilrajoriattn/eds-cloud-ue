@@ -277,3 +277,31 @@ main .section.highlight {
 main .section.hero-content .default-content-wrapper {
   background-color: var(--light-color);
 }
+
+/* Styles for video column start */
+
+main .section.video-column-section {
+  display: grid;
+  grid-template-columns: 60% auto;
+  max-width: 1370px;
+  margin: auto;
+  padding: 0 32px;
+}
+
+main .section.video-column-section > div {
+  padding: 0;
+}
+
+main .section.video-column-section .herorte {
+  background-color: transparent;
+}
+main .section.video-column-section .herorte .button-container a {
+  background-color: var(--link-color);
+  color: var(--background-color);
+}
+
+main .section.video-column-section .herorte .button-container a::after {
+  content: none;
+}
+
+/* Styles for video column end */
