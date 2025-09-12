@@ -301,5 +301,49 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "tabs",
+    "fields": [
+      {
+        "component": "text",
+        "label": "tab 1 name",
+        "name": "text1",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "tab1content",
+        "value": "",
+        "label": "tab 1 content",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "label": "tab 2 name",
+        "name": "text2",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "tab2content",
+        "value": "",
+        "label": "tab 2 content",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "label": "tab 3 name",
+        "name": "text3",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "tab3content",
+        "value": "",
+        "label": "tab 3 content",
+        "valueType": "string"
+      }
+    ]
   }
 ]
