@@ -330,19 +330,6 @@
         "value": "",
         "label": "tab 2 content",
         "valueType": "string"
-      },
-      {
-        "component": "text",
-        "label": "tab 3 name",
-        "name": "text3",
-        "valueType": "string"
-      },
-      {
-        "component": "richtext",
-        "name": "tab3content",
-        "value": "",
-        "label": "tab 3 content",
-        "valueType": "string"
       }
     ]
   }
