@@ -343,7 +343,7 @@
       {
         "component": "text",
         "label": "follow text",
-        "name": "followText",
+        "name": "followtext",
         "valueType": "string"
       },
       {
