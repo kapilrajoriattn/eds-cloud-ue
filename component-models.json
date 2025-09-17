@@ -346,22 +346,19 @@
         "component": "reference",
         "valueType": "string",
         "name": "image1",
-        "label": "Image1",
-        "multi": false
+        "label": "Image1"
       },
       {
         "component": "reference",
         "valueType": "string",
         "name": "image2",
-        "label": "Image2",
-        "multi": false
+        "label": "Image2"
       },
       {
         "component": "reference",
         "valueType": "string",
         "name": "image3",
-        "label": "Image3",
-        "multi": false
+        "label": "Image3"
       }
     ]
   }
