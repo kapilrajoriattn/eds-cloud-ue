@@ -39,3 +39,30 @@
     padding: 40px 32px;
   }
 }
+
+/* Overlap style */
+.hero.overlap-style {
+  position: relative;
+}
+
+.hero.overlap-style > div:nth-child(2) {
+  display: none;
+  width: 30%;
+  height: 100%;
+  background-color: var(--light-color);
+  padding: 0 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hero.overlap-style > div:nth-child(2) h4 {
+  color: var(--orange);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  font-weight: normal;
+}
+
+.hero.overlap-style:hover > div:nth-child(2) {
+  display: block;
+}
