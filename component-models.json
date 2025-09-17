@@ -332,5 +332,37 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "social-follow",
+    "fields": [
+      {
+        "component": "text",
+        "label": "follow text",
+        "name": "followText",
+        "valueType": "string"
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image1",
+        "label": "Image1",
+        "multi": false
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image2",
+        "label": "Image2",
+        "multi": false
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image3",
+        "label": "Image3",
+        "multi": false
+      }
+    ]
   }
 ]
