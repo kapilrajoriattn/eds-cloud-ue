@@ -222,7 +222,7 @@
         "valueType": "string"
       },
       {
-        "type": "multiselect",
+        "component": "multiselect",
         "name": "style",
         "label": "Style",
         "options": [
