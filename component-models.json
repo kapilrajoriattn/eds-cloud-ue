@@ -229,6 +229,10 @@
           {
             "name": "Overlap Style",
             "value": "overlap-style"
+          },
+          {
+            "name": "Footer Block",
+            "value": "footer-block"
           }
         ]
       }
@@ -330,6 +334,35 @@
         "value": "",
         "label": "tab 2 content",
         "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "social-follow",
+    "fields": [
+      {
+        "component": "text",
+        "label": "follow text",
+        "name": "followText",
+        "valueType": "string"
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image1",
+        "label": "Image1"
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image2",
+        "label": "Image2"
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image3",
+        "label": "Image3"
       }
     ]
   }
