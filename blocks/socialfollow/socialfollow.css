@@ -1,6 +1,16 @@
-.social-follow p {
+.socialfollow {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+
+.socialfollow p {
+    margin: 0;
+}
+
+.socialfollow picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
