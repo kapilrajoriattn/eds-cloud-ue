@@ -229,10 +229,6 @@
           {
             "name": "Overlap Style",
             "value": "overlap-style"
-          },
-          {
-            "name": "Footer Block",
-            "value": "footer-block"
           }
         ]
       }
