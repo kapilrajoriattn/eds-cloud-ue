@@ -1,20 +1,7 @@
 /* eslint-disable no-console */
 export default async function decorate(block) {
-  const link = block.querySelector('a');
-  if (!link) {
-    return;
-  }
-
-  const parentPath = link.getAttribute('title');
-  if (!parentPath) {
-    return;
-  }
-
-  // Remove the authored link (clean UI)
-  const buttonContainer = link.closest('.button-container');
-  if (buttonContainer) {
-    buttonContainer.remove();
-  }
+  // Clean up unnecessary authoring divs
+  block.innerHTML = '';
 
   const list = document.createElement('ul');
   list.className = 'dynamiccards-list';
@@ -30,18 +17,7 @@ export default async function decorate(block) {
 
     const data = await res.json();
 
-    // Save countries for use by other blocks (if present)
-    if (Array.isArray(data.countries) && data.countries.length > 0) {
-      try {
-        sessionStorage.setItem('dynamiccards:countries', JSON.stringify(data.countries));
-      } catch (e) {
-        // ignore storage errors
-      }
-    }
-
-    // Render children
     const children = Array.isArray(data.children) ? data.children : [];
-
     if (children.length === 0) {
       list.textContent = 'No child pages found.';
       return;
@@ -49,6 +25,16 @@ export default async function decorate(block) {
 
     children.forEach((child) => {
       const li = document.createElement('li');
+
+      // Thumbnail
+      if (child.thumbnail) {
+        const img = document.createElement('img');
+        img.className = 'dynamiccard-thumb';
+        img.alt = child.title || 'thumbnail';
+        img.loading = 'lazy';
+        img.src = child.thumbnail;
+        li.appendChild(img);
+      }
 
       // Title
       const titleEl = document.createElement('div');
@@ -62,16 +48,6 @@ export default async function decorate(block) {
         descEl.className = 'dynamiccard-desc';
         descEl.textContent = child.description;
         li.appendChild(descEl);
-      }
-
-      // Thumbnail (if provided)
-      if (child.thumbnail) {
-        const img = document.createElement('img');
-        img.className = 'dynamiccard-thumb';
-        img.setAttribute('alt', child.title || 'thumbnail');
-        img.setAttribute('loading', 'lazy');
-        img.src = child.thumbnail;
-        li.insertBefore(img, titleEl); // show thumbnail before title
       }
 
       list.appendChild(li);
