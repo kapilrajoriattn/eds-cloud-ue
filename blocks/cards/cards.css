@@ -9,11 +9,12 @@
 
 .cards > ul > li {
   border: 1px solid #dadada;
-  background-color: var(--background-color);
+  background-color: var(--light-color);
 }
 
 .cards .cards-card-body {
-  margin: 16px;
+  padding: 15px;
+  background-color: var(--light-color);
 }
 
 .cards .cards-card-image {
@@ -22,6 +23,20 @@
 
 .cards > ul > li img {
   width: 100%;
-  aspect-ratio: 4 / 3;
   object-fit: cover;
+}
+
+.cards > ul > li:hover {
+  position: relative;
+}
+
+.cards > ul > li:hover .cards-card-body {
+  position: absolute;
+  top:0;
+}
+
+.cards > ul > li:hover .cards-card-body h4 {
+  color: var(--orange);
+  text-decoration: underline 2px;
+  text-underline-offset: 4px;
 }
