@@ -365,17 +365,5 @@
         "label": "Image3"
       }
     ]
-  },
-  {
-    "id": "card-rte-dropdown",
-    "fields": [
-      {
-        "component": "richtext",
-        "name": "cardRteText",
-        "value": "",
-        "label": "Card RTE Text",
-        "valueType": "string"
-      }
-    ]
   }
 ]
