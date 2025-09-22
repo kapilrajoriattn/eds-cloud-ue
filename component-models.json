@@ -361,5 +361,31 @@
         "label": "Image3"
       }
     ]
+  },
+  {
+    "id": "next-career",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "nctitle",
+        "value": "",
+        "label": "title",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "ncdropdowntext",
+        "value": "",
+        "label": "text beside dropdown",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "nctextbelowdropdown",
+        "value": "",
+        "label": "text below dropdown",
+        "valueType": "string"
+      }
+    ]
   }
 ]
