@@ -12,7 +12,7 @@ export default async function decorate(block) {
   // build select element
   const select = document.createElement('select');
   select.name = 'dynamic-country';
-  select.setAttribute('aria-label', "Select country");
+  select.setAttribute('aria-label', 'Select country');
   select.style.marginLeft = '0.5rem'; // tiny inline spacing so it's visually beside the H3
 
   // placeholder
