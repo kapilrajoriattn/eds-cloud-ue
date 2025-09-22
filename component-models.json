@@ -361,20 +361,5 @@
         "label": "Image3"
       }
     ]
-  },
-  {
-    "id": "dynamic-cards",
-    "fields": [
-      {
-        "component": "aem-content",
-        "name": "reference",
-        "value": "",
-        "label": "Path",
-        "valueType": "string",
-        "validation": {
-          "rootPath": "/content/eds-cloud-ue-site"
-        }
-      }
-    ]
   }
 ]
