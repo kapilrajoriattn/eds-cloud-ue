@@ -1,7 +1,6 @@
 .nextcareer {
     background-color: #ffe8d4;
     padding: 30px 50px;
-    font-family: 'PwC Helvetica Neue';
 }
 
 .nextcareer > div:nth-child(2) > div {
@@ -14,7 +13,7 @@
 .nextcareer h3,
 .nextcareer h4,
 .nextcareer h5 {
-    font-family: 'PwC Helvetica Neue';
+    font-family: var(--body-font-family);
     margin: 0;
 }
 
