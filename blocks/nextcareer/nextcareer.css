@@ -1,0 +1,30 @@
+.nextcareer {
+    background-color: #ffe8d4;
+    padding: 30px 50px;
+    font-family: 'PwC Helvetica Neue';
+}
+
+.nextcareer > div:nth-child(2) > div {
+    display: flex;
+    margin: 10px auto 15px;
+}
+
+.nextcareer h1, 
+.nextcareer h2,
+.nextcareer h3,
+.nextcareer h4,
+.nextcareer h5 {
+    font-family: 'PwC Helvetica Neue';
+    margin: 0;
+}
+
+.nextcareer select {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid;
+}
+
+.nextcareer .button-container a {
+    background-color: var(--orange);
+    color: var(--text-color);
+}
