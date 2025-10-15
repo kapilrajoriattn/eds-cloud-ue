@@ -1,10 +1,12 @@
 {
   "mappings": [
     "/content/eds-cloud-ue-site/:/",
+    "/content/dam/eds-cloud-ue-site/:/assets/",
     "/content/eds-cloud-ue-site/configuration:/.helix/config.json",
     "/content/eds-cloud-ue-site/metadata:/metadata.json"
   ],
   "includes": [
-    "/content/eds-cloud-ue-site/"
+    "/content/eds-cloud-ue-site/",
+    "/content/dam/eds-cloud-ue-site/"
   ]
 }
