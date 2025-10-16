@@ -9,7 +9,7 @@ indices:
     target: /query-index.json
     properties:
       title:
-        select: head > meta[property="footer"]
+        select: head > meta[name="footer"]
         value: attribute(el, "content")
       lastModified:
         select: none
@@ -25,7 +25,7 @@ indices:
     target: /children-index.json
     properties:
       title:
-        select: head > meta[property="footer"]
+        select: head > meta[name="footer"]
         value: attribute(el, "content")
       lastModified:
         select: none
