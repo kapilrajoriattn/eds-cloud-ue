@@ -17,3 +17,17 @@ indices:
       robots:
         select: head > meta[name="robots"]
         value: attribute(el, "content")
+  children:
+    include:
+      - /index/**
+    target: /children-index.json
+    properties:
+      title:
+        select: head > meta[property="footer"]
+        value: attribute(el, "content")
+      lastModified:
+        select: none
+        value: parseTimestamp(headers["last-modified"], "ddd, DD MMM YYYY hh:mm GMT")
+      robots:
+        select: head > meta[name="robots"]
+        value: attribute(el, "content")
