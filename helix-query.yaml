@@ -20,6 +20,8 @@ indices:
   children:
     include:
       - /index/**
+    exclude:
+      - '/**.json'
     target: /children-index.json
     properties:
       title:
