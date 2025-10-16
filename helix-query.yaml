@@ -16,16 +16,16 @@ indices:
         value: attribute(el, "content")
       lastModified:
         select: none
-        value: parseTimestamp(headers["last-modified"], "ddd, DD MMM YYYY hh:mm GMT")
+        value: parseTimestamp(headers["last-modified"], "ddd, DD MMM YYYY hh:mm:ss GMT")
       robots:
         select: head > meta[name="robots"]
         value: attribute(el, "content")
   children:
     include:
-      - /index/**
+      - /**/page-**
     exclude:
       - '/**.json'
-    target: /children-index.json
+    target: /custom-index.json
     properties:
       title:
         select: head > meta[property="og:title"]
@@ -35,7 +35,7 @@ indices:
         value: attribute(el, "content")
       lastModified:
         select: none
-        value: parseTimestamp(headers["last-modified"], "ddd, DD MMM YYYY hh:mm GMT")
+        value: parseTimestamp(headers["last-modified"], "ddd, DD MMM YYYY hh:mm:ss GMT")
       robots:
         select: head > meta[name="robots"]
         value: attribute(el, "content")
