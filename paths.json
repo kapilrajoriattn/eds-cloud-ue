@@ -2,6 +2,7 @@
   "mappings": [
     "/content/eds-cloud-ue-site/:/",
     "/content/dam/eds-cloud-ue-site/videos/:/assets/videos/",
+    "/content/dam/pwc-eds/:/assets/pwc-eds/",
     "/content/eds-cloud-ue-site/configuration:/.helix/config.json",
     "/content/eds-cloud-ue-site/metadata:/metadata.json",
     "/content/eds-cloud-ue-site/headers:/.helix/headers.json"
@@ -9,6 +10,6 @@
   "includes": [
     "/content/eds-cloud-ue-site/",
     "/content/dam/eds-cloud-ue-site/videos/",
-    "/content/dam/pwc-eds"
+    "/content/dam/pwc-eds/"
   ]
 }
