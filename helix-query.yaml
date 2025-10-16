@@ -9,19 +9,7 @@ indices:
     target: /query-index.json
     properties:
       title:
-        select: head > meta[property="og:title"]
-        value: attribute(el, "content")
-      description:
-        select: head > meta[name="description"]
-        value: attribute(el, "content")
-      image:
-        select: head > meta[property="og:image"]
-        value: match(attribute(el, "content"), "^(https?:\/\/.*?(mysite.com))+(.*)|^(.*)")
-      imageAlt:
-        select: head > meta[property="og:image:alt"]
-        value: attribute(el, "content")
-      cq-tags:
-        select: head > meta[name="cq-tags"]
+        select: head > meta[property="footer"]
         value: attribute(el, "content")
       lastModified:
         select: none
