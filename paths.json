@@ -9,7 +9,7 @@
     "/content/eds-cloud-ue-site.resource/query-index.json:/query-index.json",
     "/content/eds-cloud-ue-site.resource/custom-index.json:/custom-index.json",
 
-    "/content/eds-cloud-ue-site/index/:/",
+    "/content/eds-cloud-ue-site/:/",
     "/content/eds-cloud-ue-site/index/us/:/us/",     // www.pwc.com/ -> /us/
     "/content/eds-cloud-ue-site/index/mx/:/mx/"       // www.pwc.co.mx/ -> /mx/
   ],
