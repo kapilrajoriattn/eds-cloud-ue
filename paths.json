@@ -9,9 +9,7 @@
     "/content/eds-cloud-ue-site.resource/query-index.json:/query-index.json",
     "/content/eds-cloud-ue-site.resource/custom-index.json:/custom-index.json",
 
-    "/content/eds-cloud-ue-site/:/",
-    "/content/eds-cloud-ue-site/index/us/:/us/",    
-    "/content/eds-cloud-ue-site/index/mx/:/mx/"     
+    "/content/eds-cloud-ue-site/:/"
   ],
   "includes": [
     "/content/eds-cloud-ue-site/",
